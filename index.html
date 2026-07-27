@@ -1,113 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vijoshy | Retro Profile</title>
-    <style>
-      :root {
-        --bg: #010114;
-        --panel: #0a0a2a;
-        --text: #d7f8ff;
-        --accent: #39ff14;
-        --accent-2: #ff44cc;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronics Hardware Home Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-      * {
-        box-sizing: border-box;
-      }
+  <!-- Top Hero Header -->
+  <header class="banner">
+    <div class="banner-title">
+      <h1>YOUR NAME</h1>
+      <p class="subtitle">Electronics Engineering & Embedded Systems</p>
+    </div>
+  </header>
 
-      body {
-        margin: 0;
-        font-family: "Courier New", Courier, monospace;
-        background: var(--bg);
-        color: var(--text);
-      }
+  <!-- Top Navigation Bar -->
+  <nav class="top-nav">
+    <a href="#about">About Me</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#lab">Lab Notes</a> |
+    <a href="#contact">Contact</a> |
+    <a href="#help">Help</a>
+  </nav>
 
-      .page {
-        max-width: 800px;
-        margin: 2rem auto;
-        padding: 1rem;
-        border: 3px solid var(--accent);
-        background: var(--panel);
-      }
+  <hr>
 
-      h1,
-      h2 {
-        margin: 0.2rem 0 0.8rem;
-        color: var(--accent);
-        text-transform: uppercase;
-      }
+  <h2>Features</h2>
 
-      .tagline {
-        color: var(--accent-2);
-        margin: 0 0 1rem;
-      }
+  <main>
+    <div class="section-item">
+      <p><a href="#about" class="feature-link">About Me</a></p>
+      <p class="indent">4th-year student focusing on low-level firmware, FPGA development, and digital signal processing.</p>
+    </div>
 
-      .section {
-        margin: 1rem 0;
-        padding: 0.8rem;
-        border: 1px dashed var(--accent);
-      }
+    <div class="section-item">
+      <p><a href="#projects" class="feature-link">Projects & Hardware</a></p>
+      <p class="indent">Descriptions and source code for custom microcontrollers, Verilog cores, and RF circuit builds.</p>
+    </div>
 
-      ul {
-        margin: 0.5rem 0 0;
-        padding-left: 1.2rem;
-      }
+    <div class="section-item">
+      <p><a href="#lab" class="feature-link">Lab Notes & Technical Reports</a></p>
+      <p class="indent">Scope captures, PCB trace impedance notes, and debouncing algorithms written during lab experiments.</p>
+    </div>
 
-      .footer {
-        margin-top: 1rem;
-        font-size: 0.9rem;
-        color: #8bd3ff;
-        text-align: right;
-      }
+    <div class="section-item">
+      <p><a href="#contact" class="feature-link">Contact & Links</a></p>
+      <p class="indent">Direct email address, personal GitHub repositories, and professional engineering connections.</p>
+    </div>
+  </main>
 
-      a {
-        color: var(--accent-2);
-      }
-    </style>
-  </head>
-  <body>
-    <main class="page">
-      <marquee behavior="alternate" scrollamount="6">WELCOME TO VIJOSHY'S RETRO PROFILE</marquee>
-      <h1>Vijoshy</h1>
-      <p class="tagline">Minimalist 90s throwback • Resume + Profile</p>
+  <hr>
 
-      <section class="section" aria-labelledby="about-title">
-        <h2 id="about-title">About</h2>
-        <p>
-          Builder focused on practical web experiences, clean UX, and reliable engineering.
-          I enjoy turning ideas into fast, useful products.
-        </p>
-      </section>
+  <footer>
+    <p>
+      <a href="#about">About Me</a> | 
+      <a href="#projects">Projects</a> | 
+      <a href="#lab">Lab Notes</a> | 
+      <a href="#contact">Contact</a>
+    </p>
 
-      <section class="section" aria-labelledby="experience-title">
-        <h2 id="experience-title">Experience</h2>
-        <ul>
-          <li>Built and maintained modern web apps with JavaScript, HTML, and CSS.</li>
-          <li>Shipped portfolio and profile projects with a focus on simplicity.</li>
-          <li>Worked across UI implementation, performance, and accessibility improvements.</li>
-        </ul>
-      </section>
+    <br>
 
-      <section class="section" aria-labelledby="hobbies-title">
-        <h2 id="hobbies-title">Hobbies</h2>
-        <ul>
-          <li>Exploring retro web design and internet history.</li>
-          <li>Reading about product design and startup stories.</li>
-          <li>Learning new development tools and workflows.</li>
-        </ul>
-      </section>
+    <p><a href="#top">About this server</a></p>
 
-      <section class="section" aria-labelledby="resume-title">
-        <h2 id="resume-title">Resume Snapshot</h2>
-        <p>
-          Looking for opportunities in product-focused software engineering.
-          Reach me at <a href="mailto:hello@vijoshy.com">hello@vijoshy.com</a>.
-        </p>
-      </section>
+    <hr>
 
-      <p class="footer">Best viewed with any browser from this millennium ✨</p>
-    </main>
-  </body>
+    <p>
+      Copyright, 2026 Your Name.<br>
+      Send any questions or feedback regarding this site to <a href="mailto:your.email@example.com">your.email@example.com</a>.<br>
+      Last modified on 260727
+    </p>
+  </footer>
+
+</body>
 </html>
