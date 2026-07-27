@@ -1,0 +1,85 @@
+/* 1995 Apple Homepage Aesthetic */
+body {
+  background-color: #c0c0c0; /* Standard mid-90s gray background */
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 0 15px;
+  line-height: 1.2;
+}
+
+/* Banner Box */
+.banner {
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  margin: 5px 0 0 0;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* Links */
+a {
+  color: #0000ee; /* Classic default web blue */
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+/* Navigations */
+.top-nav {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Section Headings */
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Page Items */
+.section-item {
+  margin-bottom: 15px;
+}
+
+.feature-link {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+p {
+  margin: 4px 0;
+}
+
+.indent {
+  margin-left: 30px;
+}
+
+/* Dividers */
+hr {
+  border: none;
+  border-top: 1px solid #808080;
+  margin: 15px 0;
+}
+
+/* Footer Details */
+footer {
+  font-size: 0.95rem;
+}
