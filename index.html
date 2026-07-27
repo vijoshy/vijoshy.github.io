@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vijoshy | Retro Profile</title>
+    <style>
+      :root {
+        --bg: #010114;
+        --panel: #0a0a2a;
+        --text: #d7f8ff;
+        --accent: #39ff14;
+        --accent-2: #ff44cc;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Courier New", Courier, monospace;
+        background: var(--bg);
+        color: var(--text);
+      }
+
+      .page {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 1rem;
+        border: 3px solid var(--accent);
+        background: var(--panel);
+      }
+
+      h1,
+      h2 {
+        margin: 0.2rem 0 0.8rem;
+        color: var(--accent);
+        text-transform: uppercase;
+      }
+
+      .tagline {
+        color: var(--accent-2);
+        margin: 0 0 1rem;
+      }
+
+      .section {
+        margin: 1rem 0;
+        padding: 0.8rem;
+        border: 1px dashed var(--accent);
+      }
+
+      ul {
+        margin: 0.5rem 0 0;
+        padding-left: 1.2rem;
+      }
+
+      .footer {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        color: #8bd3ff;
+        text-align: right;
+      }
+
+      a {
+        color: var(--accent-2);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <marquee behavior="alternate" scrollamount="6">WELCOME TO VIJOSHY'S RETRO PROFILE</marquee>
+      <h1>Vijoshy</h1>
+      <p class="tagline">Minimalist 90s throwback • Resume + Profile</p>
+
+      <section class="section" aria-labelledby="about-title">
+        <h2 id="about-title">About</h2>
+        <p>
+          Builder focused on practical web experiences, clean UX, and reliable engineering.
+          I enjoy turning ideas into fast, useful products.
+        </p>
+      </section>
+
+      <section class="section" aria-labelledby="experience-title">
+        <h2 id="experience-title">Experience</h2>
+        <ul>
+          <li>Built and maintained modern web apps with JavaScript, HTML, and CSS.</li>
+          <li>Shipped portfolio and profile projects with a focus on simplicity.</li>
+          <li>Worked across UI implementation, performance, and accessibility improvements.</li>
+        </ul>
+      </section>
+
+      <section class="section" aria-labelledby="hobbies-title">
+        <h2 id="hobbies-title">Hobbies</h2>
+        <ul>
+          <li>Exploring retro web design and internet history.</li>
+          <li>Reading about product design and startup stories.</li>
+          <li>Learning new development tools and workflows.</li>
+        </ul>
+      </section>
+
+      <section class="section" aria-labelledby="resume-title">
+        <h2 id="resume-title">Resume Snapshot</h2>
+        <p>
+          Looking for opportunities in product-focused software engineering.
+          Reach me at <a href="mailto:hello@vijoshy.com">hello@vijoshy.com</a>.
+        </p>
+      </section>
+
+      <p class="footer">Best viewed with any browser from this millennium ✨</p>
+    </main>
+  </body>
+</html>
