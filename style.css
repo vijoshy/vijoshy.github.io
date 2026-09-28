@@ -83,3 +83,8 @@ hr {
 footer {
   font-size: 0.95rem;
 }
+
+.snark {
+  opacity: 0.45;
+  font-size: 0.85em;
+}
